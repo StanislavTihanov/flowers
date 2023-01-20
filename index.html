@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <title>Аленький цветочек</title>
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+<div class="wrapper">
+  <header class="header" id="header">
+    <div class="container">
+        <div class="header__content">
+            <div class="header__logo">
+                <img class="header__logo-img" src="images/logo.svg" alt="logo">
+                <a class="header__logo-link" href="#">Аленький цветочек</a>
+            </div>
+            <nav class="header__menu" id="menu">
+              <ul class="header__menu-list">
+                  <li class="header__menu-item">
+                      <a class="header__menu-link" href="#homepage">Статьи</a>
+                  </li>
+                  <li class="header__menu-item">
+                      <a class="header__menu-link" href="#about">О нас</a>
+                  </li>
+                  <li class="header__menu-item">
+                      <a class="header__menu-link" href="#table">Интересное</a>
+                  </li>
+                  <li class="header__menu-item">
+                      <a class="header__menu-link" href="#contacts">Контакты</a>
+                  </li>
+              </ul>
+              <div class="header__btn header__btn--mod">
+                <a class="header__button" href="#popup">Обратная связь</a>
+              </div>
+            </nav>
+            <div class="header__burger" id="hamb">
+              <span></span>
+            </div>
+            <div class="header__btn">
+              <a class="header__button" href="#popup">Обратная связь</a>
+            </div>
+      </div>
+    </div>
+    <div class="popup" id="popup">
+      <a class="popup__area" href="#header"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a class="popup__content-close" href="#header">X</a>
+          <h3 class="popup__content-title">Оставить заявку</h3>
+          <form class="contacts__form">
+            <label>
+              <input class="contacts__form-input contacts__form-input--mod" placeholder="Your name" type="text">
+            </label>
+            <label>
+              <input class="contacts__form-input contacts__form-input--mod" placeholder="Your phone" type="text">
+            </label>
+            <label>
+              <input class="contacts__form-input contacts__form-input--mod" placeholder="Your e-mail" type="email">
+            </label>
+            <textarea class="contacts__form-area contacts__form-area--mod" placeholder="Your message"></textarea>
+            <a class="contacts__form-button" href="#popup-sent">Отправить</a>
+        </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup-sent" id="popup-sent">
+      <a class="popup-sent__area" href="#header"></a>
+      <div class="popup-sent__body">
+          <div class="popup-sent__content">
+              <a class="popup-sent__content-close" href="#header">X</a>
+              <div class="popup-sent__content-image">
+                  <img class="popup-sent__content-img" src="images/popup-icon.svg" alt="img popup">
+              </div>
+              <p class="popup-sent__content-title">Заявка отправлена!</p>
+              <p class="popup-sent__content-text">Наш менеджер перезвонит вам в течении 5-7 минут для уточнения деталей заказа</p>
+          </div>
+      </div>
+  </div>
+  </header>
+
+  <main class="main">
+    <section class="two">
+      <div class="container">
+        <div class="two__content">
+          <div class="two__block">
+            <div class="two__box">
+              <picture>
+                <source type="image/webp" srcset="images/flowers1.webp">
+                <img class="two__box-img" src="images/flowers1.png" alt="img block">
+            </picture>
+            </div>
+            <h2 class="two__block-title">Окрестности Тулы оросил далёкий барабанный бой</h2>
+            <p class="two__block-text">Для современного мира социально-экономическое развитие обеспечивает актуальность экономической целесообразности принимаемых решений. А также сделанные на базе интернет-аналитики выводы.</p>
+            <a class="two__block-button" href="#">Читать далее</a>
+          </div>
+          <div class="two__block">
+            <div class="two__box">
+              <picture>
+                <source type="image/webp" srcset="images/flowers2.webp">
+                <img class="two__box-img" src="images/flowers2.png" alt="img block">
+            </picture>
+            </div>
+            <h2 class="two__block-title">Сложно сказать, почему предприниматели в сети</h2>
+            <p class="two__block-text">Постоянное информационно-пропагандистское обеспечение нашей деятельности требует анализа стандартных подходов. Прежде всего, курс на социально-ориентированный национальный проект</p>
+            <a class="two__block-button" href="#">Читать далее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="three">
+      <div class="container">
+        <div class="three__content">
+          <div class="three__block">
+            <div class="three__box">
+              <picture>
+                <source type="image/webp" srcset="images/flowers3.webp">
+                <img class="two__box-img" src="images/flowers3.png" alt="img block">
+            </picture>
+            </div>
+            <h2 class="three__block-title">Воистину радостный звук: далёкий барабанный бой</h2>
+            <p class="three__block-text">Каждый из нас понимает очевидную вещь: внедрение современных методик предполагает независимые способы реализации </p>
+            <a class="three__block-button" href="#">Читать далее</a>
+          </div>
+          <div class="three__block">
+            <div class="three__box">
+              <picture>
+                <source type="image/webp" srcset="images/flowers4.webp">
+                <img class="two__box-img" src="images/flowers4.png" alt="img block">
+            </picture>
+            </div>
+            <h2 class="three__block-title">На двадцатом съезде партии прозвучало поразительное</h2>
+            <p class="three__block-text">Вот вам яркий пример современных тенденций - семантический разбор внешних противодействий представляет собой</p>
+            <a class="three__block-button" href="#">Читать далее</a>
+          </div>
+          <div class="three__block">
+            <div class="three__box">
+              <picture>
+                <source type="image/webp" srcset="images/flowers5.webp">
+                <img class="two__box-img" src="images/flowers5.png" alt="img block">
+            </picture>
+            </div>
+            <h2 class="three__block-title">Был сорван доклад председателя совхоза</h2>
+            <p class="three__block-text">Идейные соображения высшего порядка, а также существующая теория является качественно новой ступенью модели развития.</p>
+            <a class="three__block-button" href="#">Читать далее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="autors">
+      <div class="container">
+        <div class="autors__content">
+          <h2 class="autors__content-title">Популярные авторы</h2>
+          <div class="autors__block">
+            <div class="autors__item">
+              <div class="autors__box">
+                <picture>
+                  <source type="image/webp" srcset="images/autors1.webp">
+                  <img class="autors__box-images" src="images/autors1.png" alt="img autors">
+              </picture>
+              </div>
+              <dl>
+                <dt class="autors__item-title">Писатель</dt>
+                <dd class="autors__subtitle">Наталья Рунова</dd>
+              </dl>
+            </div>
+            <div class="autors__item">
+              <div class="autors__box">
+                <picture>
+                  <source type="image/webp" srcset="images/autors2.webp">
+                  <img class="autors__box-images" src="images/autors2.png" alt="img autors">
+              </picture>
+              </div>
+              <dl>
+                <dt class="autors__item-title">Писатель</dt>
+                <dd class="autors__subtitle">Наталья Рунова</dd>
+              </dl>
+            </div>
+            <div class="autors__item">
+              <div class="autors__box">
+                <picture>
+                  <source type="image/webp" srcset="images/autors3.webp">
+                  <img class="autors__box-images" src="images/autors3.png" alt="img autors">
+              </picture>
+              </div>
+              <dl>
+                <dt class="autors__item-title">Писатель</dt>
+                <dd class="autors__subtitle">Наталья Рунова</dd>
+              </dl>
+            </div>
+            <div class="autors__item">
+              <div class="autors__box">
+                <picture>
+                  <source type="image/webp" srcset="images/autors4.webp">
+                  <img class="autors__box-images" src="images/autors4.png" alt="img autors">
+              </picture>
+              </div>
+              <dl>
+                <dt class="autors__item-title">Писатель</dt>
+                <dd class="autors__subtitle">Наталья Рунова</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="autors__part">
+            <a class="autors__part-button" href="#">Просмотреть еще</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="about__content">
+          <h2 class="about__content-title">О нас</h2>
+          <div class="about__block">
+            <div class="about__info">
+              <h3 class="about__info-title">Органический трафик</h3>
+              <p class="about__info-text about__info-text--mod">Интерактивные прототипы рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Внезапно, представители современных социальных резервов объединены в целые кластеры себе подобных. Учитывая ключевые сценарии поведения, постоянное информационно-пропагандистское</p>
+              <p class="about__info-text about__info-text--mod">Обеспечение нашей деятельности требует определения и уточнения глубокомысленных рассуждений. А также интерактивные прототипы, вне зависимости от их уровня, должны быть разоблачены. Интерактивные прототипы неоднозначны должны быть разоблачены. Интерактивные прототипы неоднозначны</p>
+              <h3 class="about__info-subtitle">Но существующая теория, а также свежий взгляд.</h3>
+              <p class="about__info-text">Повседневная практика показывает, что консультация с широким активом, а также свежий взгляд на привычные вещи</p>
+            </div>
+            <div class="about__photo">
+              <picture>
+                <source type="image/webp" srcset="images/about-img.webp">
+                <img class="about__photo-img" src="images/about-img.png" alt="img about">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="interesting">
+      <div class="container">
+        <div class="interesting__content">
+          <h2 class="interesting__content-title">Интересное</h2>
+          <div class="interesting__slider">
+            <div class="interesting__item-wrapper">
+              <div class="interesting__item">
+                <div class="interesting__photo">
+                  <picture>
+                    <source type="image/webp" srcset="images/interesting-photo.webp">
+                    <img class="interesting__photo-img" src="images/interesting-photo.png" alt="img interesting">
+                  </picture>
+                </div>
+                <div class="interesting__info">
+                  <h3 class="interesting__info-title">Наталья Рунова</h3>
+                  <p class="interesting__info-text">Предварительные выводы неутешительны: перспективное планирование однозначно фиксирует необходимость укрепления моральных ценностей. Являясь всего лишь частью общей картины, ключевые особенности структуры проекта являются только методом.</p>
+                  <div class="interesting__social">
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-vk.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-facebook.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-instagram.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-telegram.svg" alt="img social">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="interesting__item-wrapper">
+              <div class="interesting__item">
+                <div class="interesting__photo">
+                  <picture>
+                    <source type="image/webp" srcset="images/interesting-photo.webp">
+                    <img class="interesting__photo-img" src="images/interesting-photo.png" alt="img interesting">
+                  </picture>
+                </div>
+                <div class="interesting__info">
+                  <h3 class="interesting__info-title">Наталья Рунова</h3>
+                  <p class="interesting__info-text">Предварительные выводы неутешительны: перспективное планирование однозначно фиксирует необходимость укрепления моральных ценностей. Являясь всего лишь частью общей картины, ключевые особенности структуры проекта являются только методом.</p>
+                  <div class="interesting__social">
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-vk.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-facebook.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-instagram.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-telegram.svg" alt="img social">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="interesting__item-wrapper">
+              <div class="interesting__item">
+                <div class="interesting__photo">
+                  <picture>
+                    <source type="image/webp" srcset="images/interesting-photo.webp">
+                    <img class="interesting__photo-img" src="images/interesting-photo.png" alt="img interesting">
+                  </picture>
+                </div>
+                <div class="interesting__info">
+                  <h3 class="interesting__info-title">Наталья Рунова</h3>
+                  <p class="interesting__info-text">Предварительные выводы неутешительны: перспективное планирование однозначно фиксирует необходимость укрепления моральных ценностей. Являясь всего лишь частью общей картины, ключевые особенности структуры проекта являются только методом.</p>
+                  <div class="interesting__social">
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-vk.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-facebook.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-instagram.svg" alt="img social">
+                    </a>
+                    <a class="interesting__social-link" href="#">
+                      <img class="interesting__social-img" src="images/slider-telegram.svg" alt="img social">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container">
+        <h2 class="gallery__title">Галерея</h2>
+        <div class="gallery__content">
+          <div class="gallery__item">
+            <picture>
+              <source type="image/webp" srcset="images/gallery1.webp">
+              <img class="gallery__item-photo" src="images/gallery1.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item gallery__item--mod2">
+            <picture>
+              <source type="image/webp" srcset="images/gallery2.webp">
+              <img class="gallery__item-photo" src="images/gallery2.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item gallery__item-mod">
+            <picture>
+              <source type="image/webp" srcset="images/gallery3.webp">
+              <img class="gallery__item-photo" src="images/gallery3.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item">
+            <picture>
+              <source type="image/webp" srcset="images/gallery4.webp">
+              <img class="gallery__item-photo" src="images/gallery4.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item gallery__item-mod">
+            <picture>
+              <source type="image/webp" srcset="images/gallery5.webp">
+              <img class="gallery__item-photo" src="images/gallery5.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item gallery__item-mod6">
+            <picture>
+              <source type="image/webp" srcset="images/gallery6.webp">
+              <img class="gallery__item-photo" src="images/gallery6.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item">
+            <picture>
+              <source type="image/webp" srcset="images/gallery7.webp">
+              <img class="gallery__item-photo" src="images/gallery7.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item gallery__item-mod gallery__item-mod9">
+            <picture>
+              <source type="image/webp" srcset="images/gallery9.webp">
+              <img class="gallery__item-photo" src="images/gallery9.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item gallery__item-mod8">
+            <picture>
+              <source type="image/webp" srcset="images/gallery8.webp">
+              <img class="gallery__item-photo" src="images/gallery8.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item">
+            <picture>
+              <source type="image/webp" srcset="images/gallery10.webp">
+              <img class="gallery__item-photo" src="images/gallery10.png" alt="img gallery">
+            </picture>
+          </div>
+          <div class="gallery__item gallery__item-mod11">
+            <picture>
+              <source type="image/webp" srcset="images/gallery11.webp">
+              <img class="gallery__item-photo" src="images/gallery11.png" alt="img gallery">
+            </picture>
+          </div>
+        </div>
+        <div class="gallery__button">
+          <a class="gallery__button-link" href="#">Загрузить еще</a>
+        </div>
+      </div>
+    </section>
+    <section class="bouquet">
+      <div class="container">
+        <div class="bouquet__content">
+          <div class="bouquet__slider">
+            <div class="bouquet__item-wrapper">
+              <div class="bouquet__item">
+              <div class="bouquet__block">
+                <div class="bouquet__block-photo">
+                  <picture>
+                    <source type="image/webp" srcset="images/bouquet-img.webp">
+                    <img class="bouquet__block-photo-img" src="images/bouquet-img.png" alt="img bouquet">
+                  </picture>
+                </div>
+                <div class="bouquet__box">
+                  <p class="bouquet__box-title">Летняя серия</p>
+                  <p class="bouquet__box-number">12</p>
+                </div>
+              </div>
+              <div class="bouquet__info">
+                <h2 class="bouquet__info-title">Большой букет</h2>
+                <p class="bouquet__info-text">Но стремящиеся вытеснить традиционное производство, нанотехнологии, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. Значимость этих проблем настолько очевидна, что существующая</p>
+                <div class="bouquet__info-btn">
+                  <a class="bouquet__info-button" href="#">Читать далее</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="bouquet__item-wrapper">
+              <div class="bouquet__item">
+              <div class="bouquet__block">
+                <div class="bouquet__block-photo">
+                  <picture>
+                    <source type="image/webp" srcset="images/bouquet-img.webp">
+                    <img class="bouquet__block-photo-img" src="images/bouquet-img.png" alt="img bouquet">
+                  </picture>
+                </div>
+                <div class="bouquet__box">
+                  <p class="bouquet__box-title">Летняя серия</p>
+                  <p class="bouquet__box-number">12</p>
+                </div>
+              </div>
+              <div class="bouquet__info">
+                <h2 class="bouquet__info-title">Большой букет</h2>
+                <p class="bouquet__info-text">Но стремящиеся вытеснить традиционное производство, нанотехнологии, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. Значимость этих проблем настолько очевидна, что существующая</p>
+                <a class="bouquet__info-button" href="#">Читать далее</a>
+              </div>
+              </div>
+            </div>
+            <div class="bouquet__item-wrapper">
+              <div class="bouquet__item">
+              <div class="bouquet__block">
+                <div class="bouquet__block-photo">
+                  <picture>
+                    <source type="image/webp" srcset="images/bouquet-img.webp">
+                    <img class="bouquet__block-photo-img" src="images/bouquet-img.png" alt="img bouquet">
+                  </picture>
+                </div>
+                <div class="bouquet__box">
+                  <p class="bouquet__box-title">Летняя серия</p>
+                  <p class="bouquet__box-number">12</p>
+                </div>
+              </div>
+              <div class="bouquet__info">
+                <h2 class="bouquet__info-title">Большой букет</h2>
+                <p class="bouquet__info-text">Но стремящиеся вытеснить традиционное производство, нанотехнологии, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. Значимость этих проблем настолько очевидна, что существующая</p>
+                <a class="bouquet__info-button" href="#">Читать далее</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <h2 class="contacts__title">Контакты</h2>
+      <div class="contacts__content">
+        <div class="contacts__info">
+          <div class="contacts__block">
+            <div class="contacts__box">
+              <a class="contacts__box-title" href="#">Адрес:</a>
+              <a class="contacts__box-subtitle" href="#">Moscow, Projected passage No. 7029</a>
+            </div>
+            <div class="contacts__box">
+              <a class="contacts__box-title" href="#">Телефон:</a>
+              <a class="contacts__box-subtitle" href="#">+7 (988) 888-88-88</a>
+            </div>
+            <div class="contacts__box">
+              <a class="contacts__box-title" href="#">Fax:</a>
+              <a class="contacts__box-subtitle" href="#">+7 (988) 888-88-88</a>
+            </div>
+          </div>
+          <dl class="contacts__block">
+            <dt class="contacts__block-title">Реквезиты:</dt>
+            <dd class="contacts__block-subtitle">ОКПО 00032547</dd>
+            <dd class="contacts__block-subtitle">ОКАТО 45293554001</dd>
+            <dd class="contacts__block-subtitle">ОКТМО 45397000001</dd>
+          </dl>
+        </div>
+        <form class="contacts__form">
+            <label>
+              <input class="contacts__form-input" placeholder="Your name" type="text">
+            </label>
+            <label>
+              <input class="contacts__form-input" placeholder="Your phone" type="text">
+            </label>
+            <label>
+              <input class="contacts__form-input" placeholder="Your e-mail" type="email">
+            </label>
+            <textarea class="contacts__form-area" placeholder="Your message"></textarea>
+            <a class="contacts__form-button" href="#popup-sent">Отправить</a>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__block">
+              <p class="footer__block-title">Consequat orci, risus</p>
+              <p class="footer__block-text">Nulla tellus diam ornare id purus et nisi facilisis nec. Orci nullam ornare quisque mollis sollicitudin. Ante risus lorem pellentesque orci.</p>
+              <div class="footer__social">
+                <p class="footer__social-title">Join the community</p>
+                <div class="footer__box">
+                  <img class="footer__box-img" src="images/icon-social1.svg" alt="img iconfooter">
+                  <img class="footer__box-img" src="images/icon-social2.svg" alt="img iconfooter">
+                  <img class="footer__box-img" src="images/icon-social3.svg" alt="img iconfooter">
+                  <img class="footer__box-img" src="images/icon-social4.svg" alt="img iconfooter">
+                  <img class="footer__box-img" src="images/icon-social5.svg" alt="img iconfooter">
+                  <img class="footer__box-img" src="images/icon-social6.svg" alt="img iconfooter">
+                </div>
+              </div>
+            </div>
+            <div class="footer__info">
+              <div class="footer__item">
+                <p class="footer__item-title">Marketplace</p>
+                <a href="#" class="footer__item-link">Shop</a>
+                <a href="#" class="footer__item-link">About</a>
+                <a href="#" class="footer__item-link">Gallery</a>
+                <a href="#" class="footer__item-link">Contact</a>
+              </div>
+              <div class="footer__item">
+                <p class="footer__item-title">Resource</p>
+                <a href="#" class="footer__item-link">Sed</a>
+                <a href="#" class="footer__item-link">Vitae</a>
+                <a href="#" class="footer__item-link">Tellus</a>
+                <a href="#" class="footer__item-link">Dui</a>
+              </div>
+              <div class="footer__item">
+                <p class="footer__item-title">My Account</p>
+                <a href="#" class="footer__item-link">Congue</a>
+                <a href="#" class="footer__item-link">Augue</a>
+                <a href="#" class="footer__item-link">Posuere</a>
+                <a href="#" class="footer__item-link">Molestie</a>
+              </div>
+              <div class="footer__item">
+                <p class="footer__item-title">Company</p>
+                <a href="#" class="footer__item-link">Cras</a>
+                <a href="#" class="footer__item-link">Tincidunt</a>
+                <a href="#" class="footer__item-link">Gravida</a>
+                <a href="#" class="footer__item-link">Mattis</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="footer__part1">
+            <p class="footer__part1-title">Copyright ® 2021</p>
+            <div class="footer__part2">
+              <div class="footer__part2-title">Policy</div>
+              <div class="footer__part2-title">Security</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
